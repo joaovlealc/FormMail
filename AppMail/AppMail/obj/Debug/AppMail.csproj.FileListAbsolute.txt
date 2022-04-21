@@ -1,0 +1,9 @@
+C:\programas\AppMail\AppMail\bin\Debug\AppMail.exe.config
+C:\programas\AppMail\AppMail\bin\Debug\AppMail.exe
+C:\programas\AppMail\AppMail\bin\Debug\AppMail.pdb
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.csprojAssemblyReference.cache
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.FormMail.resources
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.Properties.Resources.resources
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.csproj.GenerateResource.cache
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.exe
+C:\programas\AppMail\AppMail\obj\Debug\AppMail.pdb

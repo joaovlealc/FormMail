@@ -26,7 +26,7 @@ namespace AppMail
             Attachment anexo = new Attachment(txtAnexo.Text);
             message.Attachments.Add(anexo);
             message.Subject = txtAssunto.Text;
-            message.From = new MailAddress("XXXX@hotmail.com");
+            message.From = new MailAddress("lipfe_123@outlook.com");
             message.Body = txtMensagem.Text;
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.office365.com";
@@ -34,7 +34,7 @@ namespace AppMail
             smtp.Port = 587;
             message.Priority = MailPriority.High;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("XXXX@hoymail.com", "password");
+            smtp.Credentials = new System.Net.NetworkCredential("lipfe_123@outlook.com", "Lipe123.");
             try
             {
                 smtp.Send(message);
