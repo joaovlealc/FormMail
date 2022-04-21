@@ -31,6 +31,7 @@ namespace AppMail
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.office365.com";
             smtp.EnableSsl = true;
+            smtp.Port = 587;
             message.Priority = MailPriority.High;
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new System.Net.NetworkCredential("XXXX@hoymail.com", "password");
